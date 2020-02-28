@@ -4,7 +4,7 @@ ASM_SOURCES=start.S  pintarobots.S pintarmapa.S perder.S ganar.S
 ASM_OUTPUT=$(TARGET).s
 ASMGEN_SOURCES=$(C_SOURCES:.c=.S)
 OBJ_FILES=$(ASM_SOURCES:.S=.o) $(ASMGEN_SOURCES:.S=.o) ../lib/libtinymips.a
-GCC_ROOT=/home/david/Documentos/Editores/gcc-mips-9.1
+GCC_ROOT=/opt/gcc-mips-9.1
 LD=$(GCC_ROOT)/bin/mips-elf-ld
 CC=$(GCC_ROOT)/bin/mips-elf-gcc
 AS=$(GCC_ROOT)/bin/mips-elf-as

@@ -1,0 +1,5 @@
+6400 main
+468 perder
+320 pintarmapa
+292 pintarobots
+64 ganar
